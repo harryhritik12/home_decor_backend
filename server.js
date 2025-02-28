@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
     cors({
-      origin: ["https://home-decor-bice.vercel.app"],
+      origin: ["https://home-decor-bice.vercel.app","https://dash-board-homedecor.vercel.app"],
       credentials: true,
     })
   );
